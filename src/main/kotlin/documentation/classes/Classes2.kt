@@ -1,13 +1,10 @@
-package classes
-
-import documentation.classes.Customer
-import documentation.classes.Invoice
+package documentation.classes
 
 // A class can also declare secondary constructors
-class Person3 {
+class Person3(val name: String) {
     var children: MutableList<Person3> = mutableListOf()
 
-    constructor(parent: Person3) {
+    constructor(parent: Person3) : this(name = "") {
         parent.children.add(this)
     }
 }
