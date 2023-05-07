@@ -1,6 +1,8 @@
+package dsa.sorting
+
 /**
  * Bubble Sort is used for sorting array. You bubble items in the array
- * i.e defining the bounds
+ * i.e. defining the bounds
  * [50329] -> [03259] -> [02359] -> [02359]
  */
 fun bubbleSort(array: Array<Int>): Array<Int> {
