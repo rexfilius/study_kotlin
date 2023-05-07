@@ -1,3 +1,0 @@
-package generics
-
-// STAR PROJECTION

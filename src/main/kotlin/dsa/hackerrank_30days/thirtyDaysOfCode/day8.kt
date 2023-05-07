@@ -1,5 +1,0 @@
-package thirtyDaysOfCode
-
-fun main() {
-
-}
