@@ -1,3 +1,5 @@
+package dsa.sorting
+
 fun insertSort(array: Array<Int>): Array<Int> {
     for (index in array.indices) {
         val currentItem = array[index]  // [6, 1, 5, 4]
