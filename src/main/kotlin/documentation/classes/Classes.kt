@@ -44,7 +44,7 @@ class InitOrderDemo(name: String) {
  * They can also be used in property initializers declared in the class body
  */
 class Customer(name: String) {
-    val customerKey = name.toUpperCase()
+    val customerKey = name.uppercase()
 }
 
 // If the constructor has annotations or visibility modifiers, the constructor keyword
