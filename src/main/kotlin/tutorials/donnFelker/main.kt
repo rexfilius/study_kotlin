@@ -1,4 +1,6 @@
-import kotlin.random.Random
+package tutorials.donnFelker
+
+import getAStringNull
 
 fun main() {
 
@@ -67,8 +69,8 @@ fun main() {
     val b = 12
     println("$a == $b: ${a == b}")
 
-    val aa = Person("Donn")
-    val bb = Person("Donn")
+    val aa = PersonV("Donn")
+    val bb = PersonV("Donn")
     println(aa === bb)    // referential equality
     println()
 
@@ -101,4 +103,4 @@ fun main() {
 
 }
 
-class Person(var name: String)
+class PersonV(var name: String)

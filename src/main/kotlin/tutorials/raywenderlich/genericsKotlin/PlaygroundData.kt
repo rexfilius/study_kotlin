@@ -1,4 +1,4 @@
-package genericsKotlin
+package tutorials.raywenderlich.genericsKotlin
 
 
 /** ANIMAL CLASS AND SUB-TYPES */

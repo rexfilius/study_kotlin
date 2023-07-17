@@ -1,8 +1,8 @@
-package genericsKotlin
+package tutorials.raywenderlich.genericsKotlin
 
 /**
  * A Cage accepts a type that IS-A Animal.
- * Animal is the upper bound and it is equivalent to the Java’s extends keyword
+ * Animal is the upper bound, and it is equivalent to the Java’s extends keyword
  */
 class Cage<T : Animal>(var animal: T, val size: Double)
 

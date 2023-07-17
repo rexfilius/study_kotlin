@@ -1,7 +1,9 @@
-fun getAStringNull(): String? {
+package tutorials.donnFelker
+
+fun getNullableString(): String? {
     return null
 }
 
-fun getAString(): String {
+fun getNonNullableString(): String {
     return ""
 }
