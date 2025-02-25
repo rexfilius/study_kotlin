@@ -1,4 +1,4 @@
-package otherConcepts.jvmInterop
+package documentation.otherConcepts.jvmInterop
 
 /**
  * Kotlin treats some Java types specifically. Such types are not loaded from Java "as is",

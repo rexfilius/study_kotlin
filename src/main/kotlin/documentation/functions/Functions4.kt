@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 import kotlin.math.abs
 import kotlin.math.cos

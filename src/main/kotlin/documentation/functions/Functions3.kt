@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * If a function does not return any useful value, its return type is Unit. Unit is a type

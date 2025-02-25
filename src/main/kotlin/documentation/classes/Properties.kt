@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Properties in Kotlin classes can be declared either as mutable using 'var'

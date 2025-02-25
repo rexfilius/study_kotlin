@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 import newLine
 import java.util.*

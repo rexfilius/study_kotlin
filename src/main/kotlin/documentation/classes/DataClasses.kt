@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * DATA CLASSES

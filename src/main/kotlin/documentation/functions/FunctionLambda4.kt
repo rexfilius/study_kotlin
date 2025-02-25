@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * In Kotlin, there is a convention: if the last parameter of a function is a function,
@@ -34,7 +34,7 @@ val a2 = num.filter {
 
 // this convention allows for LINQ-style code
 val cities = listOf("Tokyo", "Paris", "New York", "Toronto", "Madrid", "Moscow")
-val c = cities.filter { it.length > 5 }.sortedBy { it }.map { it.toUpperCase() }
+val c = cities.filter { it.length > 5 }.sortedBy { it }.map { it.uppercase() }
 
 // If the lambda parameter is unused, you can place an underscore instead of its name
 val cc = cities.forEach { _ -> println("$cities") }

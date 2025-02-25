@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * - Using higher-order functions imposes certain runtime penalties: each function is an

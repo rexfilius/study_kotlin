@@ -1,4 +1,4 @@
-package otherConcepts.jvmInterop
+package documentation.otherConcepts.jvmInterop
 
 /**
  * Arrays in Kotlin are invariant(never-changing), unlike Java. This means that Kotlin

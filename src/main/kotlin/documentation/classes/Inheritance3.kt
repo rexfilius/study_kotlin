@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Code in a derived class can call its superclass functions and property accessors

@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.maps
 
 fun main() {
 

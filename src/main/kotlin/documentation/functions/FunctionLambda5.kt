@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * One thing missing from some lambda expression syntax is the ability to specify the

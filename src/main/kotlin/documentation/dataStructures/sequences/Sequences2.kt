@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.sequences
 
 /**
  * The sequence operations can be classified into two regarding their state requirements:

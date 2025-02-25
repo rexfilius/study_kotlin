@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.lists
 
 fun main() {
 

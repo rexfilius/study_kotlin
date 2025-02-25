@@ -1,4 +1,4 @@
-package standardLibrary.others
+package documentation.functions
 
 fun main() {
 

@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Sealed classes represent restricted class hierarchies that provide more control over

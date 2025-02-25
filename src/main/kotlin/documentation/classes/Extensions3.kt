@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Inside a class, you can declare extensions for another class. Inside such an extension,

@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 interface A {
     fun foo() = print("A")

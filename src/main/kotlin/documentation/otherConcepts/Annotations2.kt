@@ -1,4 +1,4 @@
-package otherConcepts
+package documentation.otherConcepts
 
 import kotlin.reflect.KClass
 
@@ -20,7 +20,8 @@ annotation class Deprecated(
 )
 
 @Deprecated("This function is deprecated, use === instead",
-        ReplaceWith("this === other"))
+        ReplaceWith("this === other")
+)
 fun printG() = println("G")
 
 /**

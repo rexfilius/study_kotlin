@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * A property can delegate its getter and setter to another property. Such delegation is

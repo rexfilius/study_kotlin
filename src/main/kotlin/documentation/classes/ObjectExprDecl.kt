@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Sometimes you need to create an object of a slight modification of some class, without

@@ -1,4 +1,4 @@
-package dataStructures.arrays
+package documentation.dataStructures.arrays
 
 import newLine
 

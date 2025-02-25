@@ -1,4 +1,4 @@
-package generics
+package documentation.generics
 
 /**
  * USE-SITE VARIANCE: TYPE PROJECTIONS

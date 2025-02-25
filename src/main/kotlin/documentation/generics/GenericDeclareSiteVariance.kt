@@ -1,4 +1,4 @@
-package generics
+package documentation.generics
 
 /**
  * As in Java, classes in Kotlin can have type parameters. To create an instance of the

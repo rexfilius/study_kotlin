@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * The Kotlin standard library contains extension functions for retrieving parts of a

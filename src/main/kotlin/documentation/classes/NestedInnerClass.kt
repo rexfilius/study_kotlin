@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 // Classes can be nested in other classes
 class Outer {

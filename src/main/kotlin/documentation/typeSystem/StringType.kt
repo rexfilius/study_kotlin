@@ -1,6 +1,7 @@
-package typeSystem
+package documentation.typeSystem
 
 import newLine
+import java.util.*
 
 fun main() {
     /**
@@ -20,7 +21,7 @@ fun main() {
     "" newLine "\n"
 
     val city = "tokyo"
-    println(city.toUpperCase()) // Create and print a new String object
+    println(city.uppercase()) // Create and print a new String object
     println(city)  // the original string remains the same
 
     val letters = "abc" + 1

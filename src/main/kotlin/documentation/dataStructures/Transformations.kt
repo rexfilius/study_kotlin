@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * The Kotlin standard library provides a set of extension functions for collection
@@ -39,7 +39,7 @@ fun main() {
      * that take a map entry as an argument, so you can operate both its key and value
      */
     val numbersMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3, "key11" to 11)
-    println(numbersMap.mapKeys { it.key.toUpperCase() })
+    println(numbersMap.mapKeys { it.key.uppercase() })
     println(numbersMap.mapValues { it.value + it.key.length })
     println()
 

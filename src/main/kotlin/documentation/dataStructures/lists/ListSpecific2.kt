@@ -1,4 +1,4 @@
-package dataStructures.lists
+package documentation.dataStructures.lists
 
 import kotlin.math.sign
 
@@ -42,9 +42,11 @@ fun main() {
             Product("WebStorm", 49.0),
             Product("AppCode", 99.0),
             Product("DotTrace", 129.0),
-            Product("ReSharper", 149.0))
+            Product("ReSharper", 149.0)
+    )
 
-    println(productList.binarySearch(Product("AppCode", 99.0),
+    println(productList.binarySearch(
+        Product("AppCode", 99.0),
             compareBy<Product> { it.price }.thenBy { it.name })
     )
     println()
@@ -68,7 +70,8 @@ fun main() {
             Product("WebStorm", 49.0),
             Product("AppCode", 99.0),
             Product("DotTrace", 129.0),
-            Product("ReSharper", 149.0))
+            Product("ReSharper", 149.0)
+    )
 
     println(aProductList.binarySearch { priceComparison(it, 99.0) })
 

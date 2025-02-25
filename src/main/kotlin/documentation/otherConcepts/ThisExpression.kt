@@ -1,4 +1,4 @@
-package otherConcepts
+package documentation.otherConcepts
 
 /**
  * To denote the current receiver, you use "this" expressions:

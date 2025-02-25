@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.lists
 
 /**
  * In addition to the collection modification operations described in Collection write

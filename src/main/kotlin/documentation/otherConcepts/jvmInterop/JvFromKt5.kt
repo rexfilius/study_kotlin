@@ -1,4 +1,4 @@
-package otherConcepts.jvmInterop
+package documentation.otherConcepts.jvmInterop
 
 /**
  * OPERATORS
@@ -58,7 +58,7 @@ class Example3: Cloneable {
  * override keyword. According to Java's rules, finalize() must not be private
  */
 class C2 {
-    protected fun finalize() {
+    private fun finalize() {
         // code...
     }
 }

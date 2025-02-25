@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * The Delegation pattern has proven to be a good alternative to implementation

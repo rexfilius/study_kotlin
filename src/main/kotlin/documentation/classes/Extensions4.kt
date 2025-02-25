@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Extensions declared as members can be declared as open and overridden in subclasses.

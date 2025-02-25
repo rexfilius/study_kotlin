@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * When calling a function, you can name one or more of its arguments. This may be helpful

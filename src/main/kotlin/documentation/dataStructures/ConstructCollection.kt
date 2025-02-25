@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 import java.util.*
 import kotlin.collections.HashSet

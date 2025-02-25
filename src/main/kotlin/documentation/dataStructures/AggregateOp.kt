@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * Kotlin collections contain functions for commonly used aggregate operations –

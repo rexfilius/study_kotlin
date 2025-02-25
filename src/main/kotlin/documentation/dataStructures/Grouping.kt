@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * The Kotlin standard library provides extension functions for grouping collection
@@ -15,10 +15,10 @@ package dataStructures
 fun main() {
 
     val numbers = listOf("one", "two", "three", "four", "five")
-    println(numbers.groupBy { it.first().toUpperCase() })
+    println(numbers.groupBy { it.first().uppercase() })
     println(numbers.groupBy(
             keySelector = { it.first() },
-            valueTransform = { it.toUpperCase() }
+            valueTransform = { it.uppercase() }
     ))
     println()
 

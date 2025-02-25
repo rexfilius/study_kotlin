@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * An interface with only one abstract method is called a functional interface,

@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 import java.awt.Rectangle
 

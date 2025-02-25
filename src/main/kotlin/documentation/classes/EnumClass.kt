@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 import java.util.function.BinaryOperator
 import java.util.function.IntBinaryOperator

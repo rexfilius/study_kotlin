@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 fun main() {
 
@@ -23,10 +23,10 @@ fun main() {
      * be called with a value transformation function
      */
     val num = listOf("one", "two", "three", "four")
-    println(num.associateBy { it.first().toUpperCase() })
+    println(num.associateBy { it.first().uppercase() })
 
     println(num.associateBy(
-            keySelector = { it.first().toUpperCase() },
+            keySelector = { it.first().uppercase() },
             valueTransform = { it.length }))
     println()
 

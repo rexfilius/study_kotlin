@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * Collection<T> is the root of the collection hierarchy. This interface represents the

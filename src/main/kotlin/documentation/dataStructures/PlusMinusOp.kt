@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * In Kotlin, plus (+) and minus (-) operators are defined for collections. They take a

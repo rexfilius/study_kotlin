@@ -1,4 +1,4 @@
-package controlFlow
+package documentation.controlFlow
 
 fun main() {
     println(maxOf(3, 45))

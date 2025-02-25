@@ -1,4 +1,4 @@
-package typeSystem
+package documentation.typeSystem
 
 import newLine
 

@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 // NOTE: Inline classes are Still in Beta (19-Feb-2021)
 @JvmInline

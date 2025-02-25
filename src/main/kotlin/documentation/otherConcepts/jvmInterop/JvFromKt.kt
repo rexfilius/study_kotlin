@@ -1,4 +1,4 @@
-package otherConcepts.jvmInterop
+package documentation.otherConcepts.jvmInterop
 
 import java.util.*
 

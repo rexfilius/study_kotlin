@@ -1,4 +1,4 @@
-package exceptions
+package documentation.exceptions
 
 fun main() {
 

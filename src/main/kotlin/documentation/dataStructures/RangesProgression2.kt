@@ -7,7 +7,7 @@ fun main() {
      * A range defines a closed interval in the mathematical sense: it is defined by its
      * two endpoint values which are both included in the range. Ranges are defined for
      * comparable types: having an order, you can define whether an arbitrary instance is
-     * in the range between two given instances. The typeSystem.main operation on ranges is 'contains'
+     * in the range between two given instances. The documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.typeSystem.main operation on ranges is 'contains'
      * which is usually used in the form of 'in' and '!in' operators
      */
 

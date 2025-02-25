@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Kotlin provides an ability to extend a class with new functionality without having

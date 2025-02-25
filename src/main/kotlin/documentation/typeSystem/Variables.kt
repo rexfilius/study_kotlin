@@ -1,4 +1,4 @@
-package typeSystem
+package documentation.typeSystem
 
 // Top level variables
 val PI = 3.14

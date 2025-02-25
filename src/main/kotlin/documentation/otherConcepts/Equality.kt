@@ -1,4 +1,4 @@
-package otherConcepts
+package documentation.otherConcepts
 
 /**
  * In Kotlin there are two types of equality:

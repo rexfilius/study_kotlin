@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 fun main() {
     println("Hello World")

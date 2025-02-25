@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 // TODO: Read more on Backing Fields and Backing Properties
 

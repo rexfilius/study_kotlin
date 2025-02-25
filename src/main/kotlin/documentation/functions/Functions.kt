@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 // functions in Kotlin are declared using the 'fun' keyword
 fun double(x: Int): Int {

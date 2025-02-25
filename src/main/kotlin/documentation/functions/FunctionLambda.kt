@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * Kotlin functions are first-class, which means that they can be stored in variables and

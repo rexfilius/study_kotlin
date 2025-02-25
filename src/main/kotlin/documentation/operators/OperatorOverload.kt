@@ -1,4 +1,4 @@
-package operators
+package documentation.operators
 
 /**
  * Kotlin allows us to provide implementations for a predefined set of operators on our

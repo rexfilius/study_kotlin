@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Overriding properties works in a similar way to overriding methods;

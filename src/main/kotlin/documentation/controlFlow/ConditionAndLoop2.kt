@@ -1,4 +1,4 @@
-package controlFlow
+package documentation.controlFlow
 
 import getAString
 import getAnInt
@@ -58,5 +58,5 @@ fun hasPrefix(x: Any) = when (x) {
 // You can capture 'when' subject in a  variable using following syntax
 fun getSome() = when (val some = getAString()) {
     "Code" -> some.length
-    else -> some.toUpperCase()
+    else -> some.uppercase().toInt()
 }

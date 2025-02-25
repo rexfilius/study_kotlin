@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 // TODO: Read more on Delegation and Delegated Properties
 /**
  * You can declare local variables as delegated properties.

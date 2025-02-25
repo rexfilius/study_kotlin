@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 // An object declaration inside a class can be marked with the 'companion' keyword
 class MyClass2 {
@@ -19,7 +19,7 @@ fun main() {
 
     // the name of the companion object can be omitted, in which case the name
     // 'Companion' will be used
-    val instanceSecond = MyClass3.Companion
+    val instanceSecond = MyClass3
 }
 
 /**

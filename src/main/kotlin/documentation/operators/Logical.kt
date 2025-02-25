@@ -1,4 +1,4 @@
-package operators
+package documentation.operators
 
 import newLine
 

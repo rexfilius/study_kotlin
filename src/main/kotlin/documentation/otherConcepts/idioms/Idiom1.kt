@@ -1,4 +1,4 @@
-package otherConcepts.idioms
+package documentation.otherConcepts.idioms
 
 fun main() {
 

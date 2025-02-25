@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * Filtering is one of the most popular tasks in the collection processing. In Kotlin,
@@ -51,7 +51,7 @@ fun main() {
      */
     val nm = listOf(null, 1, "two", 3.0, "four")
     println("All String elements in upper case:")
-    nm.filterIsInstance<String>().forEach { println(it.toUpperCase()) }
+    nm.filterIsInstance<String>().forEach { println(it.uppercase()) }
     println()
 
     /**

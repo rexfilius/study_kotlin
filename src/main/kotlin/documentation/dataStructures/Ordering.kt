@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 /**
  * The order of elements is an important aspect of certain collection types. e.g,

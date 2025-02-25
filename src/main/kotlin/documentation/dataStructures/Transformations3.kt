@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures
 
 import newLine
 
@@ -74,7 +74,7 @@ fun main() {
     // To customize the representation of elements themselves,
     // provide the transform function
     val words = listOf("Bag", "Run", "Sand", "Cruise")
-    println(words.joinToString { "Element: ${it.toUpperCase()}" })
+    println(words.joinToString { "Element: ${it.uppercase()}" })
 
 }
 

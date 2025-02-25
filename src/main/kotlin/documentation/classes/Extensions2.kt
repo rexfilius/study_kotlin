@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Note that extensions can be defined with a nullable receiver type. Such extensions

@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 /**
  * REIFIED TYPE PARAMETERS

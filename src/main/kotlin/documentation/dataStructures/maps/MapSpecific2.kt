@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.maps
 
 /**
  * Mutable maps offer map-specific write operations. These operations let you change the

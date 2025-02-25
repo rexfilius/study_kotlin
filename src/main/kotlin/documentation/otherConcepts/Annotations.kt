@@ -1,4 +1,4 @@
-package otherConcepts
+package documentation.otherConcepts
 
 /**
  * Annotations are means of attaching metadata to code.

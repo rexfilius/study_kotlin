@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.sets
 
 /**
  * The Kotlin collections package contains extension functions for popular operations on

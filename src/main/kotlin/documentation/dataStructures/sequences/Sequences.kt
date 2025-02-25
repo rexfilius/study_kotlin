@@ -1,4 +1,4 @@
-package dataStructures
+package documentation.dataStructures.sequences
 
 /**
  * Along with collections, the Kotlin standard library contains another container type;

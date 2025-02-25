@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * VISIBILITY MODIFIERS
@@ -53,6 +53,6 @@ class See private constructor(a: Int) {/**/ }
  * the same module. A module is a set of Kotlin files compiled together:
  * 1. an IntelliJ IDEA module
  * 2. a Maven project
- * 3. a Gradle source set (exception of 'test' accessing internal declarations of 'typeSystem.main'
+ * 3. a Gradle source set (exception of 'test' accessing internal declarations of 'documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.typeSystem.main'
  * 4. a set of files compiled with one invocation of <kotlinc> Ant task
  */

@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 /**
  * Interfaces in Kotlin can contain declarations of abstract methods, as well as method

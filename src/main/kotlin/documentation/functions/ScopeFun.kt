@@ -1,4 +1,4 @@
-package functions
+package documentation.functions
 
 import kotlin.random.Random
 
@@ -34,7 +34,7 @@ fun main() {
 
     /**
      * Because the scope functions are all quite similar in nature, it's important to
-     * understand the differences between them. There are two typeSystem.main differences between
+     * understand the differences between them. There are two documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.documentation.typeSystem.main differences between
      * each scope function:
      * [1] The way to refer to the context object.
      * [2] The return value.
@@ -58,7 +58,7 @@ fun main() {
     // CONTEXT OBJECT
     /**
      * "this"
-     * RUN, WITH, and APPLY refer to the context object as a lambda receiver -
+     * RUN, WITH, and APPLY, refer to the context object as a lambda receiver -
      * by keyword this. Hence, in their lambdas, the object is available as it would be in
      * ordinary class functions. In most cases, you can omit this when accessing the
      * members of the receiver object, making the code shorter. On the other hand,

@@ -1,4 +1,4 @@
-package generics
+package documentation.generics
 
 /**
  * GENERIC FUNCTIONS

@@ -1,4 +1,4 @@
-package typeSystem
+package documentation.typeSystem
 
 // A reference must be explicitly marked as nullable when null value is possible.
 

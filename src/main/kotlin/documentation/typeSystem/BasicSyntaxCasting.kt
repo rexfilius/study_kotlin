@@ -1,4 +1,4 @@
-package typeSystem
+package documentation.typeSystem
 
 // The 'is' operator checks if an expression is an instance of a type.
 // If an immutable local variable or property is checked for a specific type,
@@ -16,7 +16,7 @@ fun getStringLength(obj: Any): Int? {
         return obj.length
     }
 
-    // 'obj' is still of type 'Any' outside of the type-checked branch
+    // 'obj' is still of type 'Any' outside the type-checked branch
     return null
 }
 

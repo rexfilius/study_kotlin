@@ -1,4 +1,4 @@
-package otherConcepts
+package documentation.otherConcepts
 
 /**
  * When you're annotating a property or a primary constructor parameter, there are

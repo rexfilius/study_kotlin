@@ -1,4 +1,4 @@
-package otherConcepts
+package documentation.otherConcepts
 
 // Returning two values from a function
 data class Result(val result: Int, val status: String)

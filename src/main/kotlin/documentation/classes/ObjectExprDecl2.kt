@@ -1,4 +1,4 @@
-package classes
+package documentation.classes
 
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent

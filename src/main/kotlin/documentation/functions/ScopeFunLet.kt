@@ -1,4 +1,4 @@
-package standardLibrary.others
+package documentation.functions
 
 import getAStringNull
 
@@ -54,7 +54,7 @@ fun main() {
     val modifiedFirstItem = dNumbers.first().let { firstItem ->
         println("The first item of the list is '$firstItem'")
         if (firstItem.length >= 5) firstItem else "!$firstItem!"
-    }.toUpperCase()
+    }.uppercase()
     println("First item after modifications: '$modifiedFirstItem'")
 
 }

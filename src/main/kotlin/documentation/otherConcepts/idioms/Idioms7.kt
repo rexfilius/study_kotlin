@@ -1,4 +1,4 @@
-package basics.idioms
+package documentation.otherConcepts.idioms
 
 import java.math.BigDecimal
 import java.nio.file.Files
