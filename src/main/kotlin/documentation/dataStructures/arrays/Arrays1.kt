@@ -4,19 +4,22 @@ import newLine
 
 fun main() {
 
-    /**
-     * Arrays in Kotlin are represented by the Array class. It has get and set functions
-     * that turn into [] by operator overloading conventions, and the size property,
-     * along with other useful member functions
-     * - Arrays in Kotlin are invariant. This means that Kotlin does not let us assign an
-     * Array<String> to an Array<Any>, which prevents a possible runtime failure
-     * (but you can use Array<out Any>, see Type Projections ).
+    /*
+     * An array is a data structure that holds a fixed number of values of the same type or its subtypes.
+     * The most common type of array in Kotlin is the object-type array, represented by the Array class.
+     * ...
+     * Collections have the following benefits compared to arrays:
+     * (1) Collections can be read-only, which gives you more control and allows you to write
+     * robust code that has a clear intent.
+     * (2) It is easy to add or remove elements from collections. In comparison, arrays are fixed in size.
+     * The only way to add or remove elements from an array is to create a new array each time,
+     * which is very inefficient.
+     * (3) You can use the equality operator (==) to check if collections are structurally equal.
+     * You can't use this operator for arrays.
      */
     val names = arrayOf("John", 4, "Yu", "Kate", true, null, 'A')
     names.forEach { print("$it. ") }
     "" newLine ""
-    for (i in names) print("$i. ")
-    "" newLine "\n"
 
     val nameNull = arrayOfNulls<Int>(4)
     nameNull.forEach { print("$it. ") }

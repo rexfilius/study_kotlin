@@ -1,10 +1,9 @@
 package documentation.typeSystem
 
 import newLine
-import java.util.*
 
 fun main() {
-    /**
+    /*
      * Strings in Kotlin are represented by the type String. Generally, a string value is
      * a sequence of characters in double quotes (""). Elements of a string are
      * characters that you can access via the indexing operation.
@@ -28,7 +27,7 @@ fun main() {
     println(letters + "def")
     "" newLine ""
 
-    /**
+    /*
      * Kotlin has two types of string literals
      * 1. escaped strings that may contain escaped characters
      * 2. raw strings that can contain newlines and arbitrary text
@@ -54,7 +53,7 @@ fun main() {
     println(texts)
     "" newLine ""
 
-    /**
+    /*
      * String literals may contain template expressions - pieces of code that are
      * evaluated and whose results are concatenated into the string. A template
      * expression starts with a dollar sign ($) and consists of either a name or
@@ -69,4 +68,25 @@ fun main() {
     val price = """${'$'}9.99"""
     println(price)
     println()
+    "" newLine "::String Formatting"
+
+    /*
+     * String formatting with the String.format() function is only available in Kotlin/JVM.
+     */
+    // Formats an integer, adding leading zeroes to reach a length of seven characters
+    val integerNumber = String.format("%07d", 31416)
+    println(integerNumber) // 0031416
+
+    // Formats a floating-point number to display with a + sign and four decimal places
+    val floatNumber = String.format("%+.4f", 3.141592)
+    println(floatNumber) // +3.1416
+
+    // Formats two strings to uppercase, each taking one placeholder
+    val helloString = String.format("%S %S", "hello", "world")
+    println(helloString) // HELLO WORLD
+
+    // Formats a negative number to be enclosed in parentheses,
+    // then repeats the same number in a different format (without parentheses) using `argument_index$`.
+    val negativeNumberInParentheses = String.format("%(d means %1\$d", -31416)
+    println(negativeNumberInParentheses) //(31416) means -31416
 }
